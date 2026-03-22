@@ -3,7 +3,7 @@ library(shiny)
 library(tidyverse)
 
 # Read data (FULL PATH)
-adult <- read_csv("C:/Users/Ibtisam/Documents/adult/adult.data", col_names = FALSE)
+adult <- read_csv("C:/Users/Elham/Documents/adult/adult.data", col_names = FALSE)
 
 # Column names
 colnames(adult) <- c(
